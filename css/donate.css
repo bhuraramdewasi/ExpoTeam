@@ -1,0 +1,353 @@
+ /* Body css */
+
+ body {
+   font-family: "Poppins", sans-serif !important;
+ }
+
+ .card-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   gap: 20px;
+   padding: 20px;
+   max-width: 1000px;
+   margin: 0 auto;
+ }
+
+ .card {
+   border: 1px solid;
+   flex: 1 1 280px;
+   max-width: 450px;
+   background-color: #ffffff;
+   border-radius: 12px;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+   padding: 20px;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+
+ .card:hover {
+   transform: translateY(-8px);
+   box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.174);
+
+
+ }
+
+ a {
+   border-bottom: none !important;
+ }
+
+ .anchorLine p a {
+   text-decoration: none;
+ }
+
+ .img-scaner {
+   height: 200px;
+   width: 200px;
+ }
+
+ .card-content {
+   padding: 16px;
+ }
+
+ .card-content h4 {
+   margin-bottom: 10px;
+   font-size: 1.1rem;
+   color: #333;
+ }
+
+ .card-content p {
+   font-size: 0.9rem;
+   color: #555;
+   line-height: 1.5;
+ }
+
+
+ .see-more-btn {
+   display: block;
+   margin: 0 16px 16px;
+   padding: 10px;
+   text-align: center;
+   background-color: #28a745;
+   color: white;
+   text-decoration: none;
+   border-radius: 8px;
+   font-weight: bold;
+   transition: background-color 0.3s ease;
+ }
+
+ .see-more-btn:hover {
+   background-color: #218838;
+ }
+
+
+ .bank-ac {
+   box-shadow: #0693e3 5px !important;
+ }
+
+
+ img.wp-smiley,
+ img.emoji {
+   display: inline !important;
+   border: none !important;
+   box-shadow: none !important;
+   height: 1em !important;
+   width: 1em !important;
+   margin: 0 0.07em !important;
+   vertical-align: -0.1em !important;
+   background: none !important;
+   padding: 0 !important;
+ }
+
+ .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+ .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+   background-image: none !important;
+ }
+
+ h1 {
+   color: aliceblue !important;
+   font-size: 32px !important;
+ }
+
+ /* Navbar */
+
+ .navbar {
+   background-color: #fff;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+ }
+
+ .nav-link {
+   font-size: 14px !important;
+   font-weight: bold 800px !important;
+   color: #000000 !important;
+   color: #000 !important;
+   padding: 10px !important;
+ }
+
+ .nav-link:hover {
+   color: #e2551b !important;
+   border-bottom: 1px solid black !important;
+ }
+
+ .donate-btn {
+   background-color: #f9a15f;
+   border: none;
+   padding: 8px 20px !important;
+   border-radius: 15px;
+   font-weight: 600px;
+   color: black;
+   transition: 0.3s ease-in-out;
+   text-decoration: none;
+ }
+
+ .donate-btn:hover {
+   background-color: #e69049;
+   color: white !important;
+ }
+
+
+ .Donate-btn {
+   display: none;
+ }
+
+
+
+
+
+ /* Footer */
+
+
+ .footer {
+   background-color: #ECEFF1;
+   color: #333;
+   font-family: Arial, sans-serif;
+ }
+
+ .footer-social {
+   background-color: black;
+   color: white;
+   padding: 8px !important;
+   text-align: center;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 15px;
+ }
+
+ .footer-social p {
+   margin: 0;
+ }
+
+ .footer-social .social-icons a img {
+   width: 28px;
+   height: 28px;
+   margin: 0 8px;
+   transition: transform 0.3s;
+ }
+
+ .footer-social .social-icons a img:hover {
+   transform: scale(1.2);
+ }
+
+ .footer-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   padding: 20px 20px;
+ }
+
+ .footer-column {
+   flex: 1 1 200px;
+   margin: 20px;
+ }
+
+ .footer-column h5 {
+   font-weight: bold;
+   text-transform: uppercase;
+   margin-bottom: 15px;
+   font-size: 17px !important;
+   position: relative;
+ }
+
+ .footer-column h5::after {
+   content: "";
+   font-size: 17px !important;
+   display: block;
+   width: 60px;
+   height: 2px;
+   margin-top: 5px;
+ }
+
+ .footer-column a {
+   display: block;
+   color: #333;
+   text-decoration: none;
+   margin: 8px 0;
+   transition: color 0.3s;
+   font-size: 14px !important;
+ }
+
+ .footer-column a:hover {
+   color: #e2551b !important;
+ }
+
+ .footer-column p {
+   font-size: 14px !important;
+   margin: 5px 0;
+ }
+
+ .footer-logo {
+   height: 75px;
+   width: 150px;
+   margin-bottom: 10px;
+ }
+
+
+ .footer-bottom {
+   text-align: center;
+   padding: 5px;
+   background-color: rgba(0, 0, 0, 0.2);
+   font-size: 14px;
+ }
+
+ .footer-bottom a {
+   color: #333;
+   text-decoration: none;
+ }
+
+ .footer-bottom a:hover {
+   text-decoration: underline;
+ }
+
+
+
+ /* Media Query  */
+
+
+
+ @media screen and (max-height: 1024px) {
+
+   .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+   .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+     background-image: none !important;
+   }
+ }
+
+ @media screen and (max-height: 640px) {
+
+   .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+   .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+     background-image: none !important;
+   }
+
+   .span {
+     width: 65px !important;
+     font-size: 10px !important;
+     margin-left: -10px !important;
+   }
+ }
+
+ @media only screen and (max-width: 767px) {
+   .elementor-element.elementor-element-67a7443 .eael-filterable-gallery-item-wrap {
+     width: 100%;
+   }
+
+   .span {
+     width: 65px !important;
+     font-size: 10px !important;
+     margin-left: -10px !important;
+   }
+ }
+
+ @media (max-width: 991.98px) {
+   .navbar-collapse {
+     background-color: #fff;
+     text-align: start;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+   }
+
+   .nav-link {
+     font-size: 16px !important;
+     left: 5% !important;
+     border-bottom: 1px solid #eee;
+   }
+
+   .navbar-brand img {
+     width: 120px !important;
+     height: auto !important;
+   }
+
+
+   .Donate-btn {
+     color: inherit !important;
+     text-align: center !important;
+     background-color: #f9a15f !important;
+     border: none !important;
+     color: inherit !important;
+     border-radius: 15px !important;
+     padding: 7px !important;
+     display: block !important;
+
+   }
+
+   .D-btn {
+     color: inherit !important;
+     font-size: small !important;
+
+     text-decoration: none !important;
+     border-bottom: none !important;
+   }
+
+   .navbar-toggler {
+     font-size: small !important;
+   }
+
+   .navbar-toggler:hover {
+     border-radius: none !important;
+   }
+ }
